@@ -104,6 +104,7 @@ function DisplayQuestion() {
 }
 
 function SelectAnswer() {
+    // get answer and record
     $('.quiz-section').on('click', '.option', function () {
         var GotAnswer = ($(this).val());
         // alert(GotAnswer);
@@ -133,6 +134,7 @@ function SelectAnswer() {
 }
 
 function ScoreBoard() {
+    // Final results
     $('.box1-1').show();
     $('.box1-2').hide();
     $('.box1-3').hide();
